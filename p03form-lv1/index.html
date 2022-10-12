@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p03form-lv1</title>
+</head>
+<body>
+    <img src="kopsurat.png">
+    <h2>FORMULIR PENDAFTARAN MAHASISWA BARU</h2>
+    <h3>Petunjuk Pengisian</h3>
+    <p>1. Isilah data dengan cermat, teliti, dan benar<br>
+       2. Isilah menggunakan huruf kapital <br>
+       3. Salah penulisan pada pengisian formulir ini akan berakibat fatal pada penulisan data anda di ijazah.
+    </p>
+<br> <br>
+    <fieldset>
+        <form>
+            <table>
+              <tr>
+                   <td>1. Nomor Pendaftaran :</td>
+                   <td><input type="text"></td>
+              </tr>
+              <tr>
+                   <td>2. Nama :</td>
+                   <td><input type="text"></td>
+              </tr>
+              <tr>
+                   <td>3. Tanggal ujian :</td>
+                   <td><input type="date"></td>
+              </tr>
+              <tr>
+                    <td>4. Jenis kelamin :</td>
+                    <td><input type="radio" name="jk">Laki-laki<br>
+                        <input type="radio" name="jk">Perempuan
+                    </td>
+              </tr>
+              <tr>
+                <tr>
+                  <td> 5. Jenjang studi :</td>
+                  <td>
+                    <div style="overflow-x:auto;">
+                    <table border="1" cellpadding="7">
+                      <thead>
+                        <tr>
+                          <th rowspan="2">JENJANG</th>
+                          <th colspan="2">PROGRAM STUDI</th>
+                        </tr>
+                        <tr>
+                          <th>Pagi (Reguler)</th>
+                          <th>Sore (Karyawan)</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th>D-III</th>
+                          <td>
+                            <input type="radio" name="Diploma" />
+                            Informatics Engineering <br />
+                            <input type="radio" name="Diploma" />
+                            Information Engineering
+                          </td>
+                          <td>
+                            <input type="radio" name="Diploma" />
+                            Informatics Engineering <br />
+                            <input type="radio" name="Diploma" />
+                            Information Engineering
+                          </td>
+                        </tr>
+                        <tr>
+                          <th>S-1</th>
+                          <td>
+                            <input type="radio" name="strata" />
+                            Informatics Engineering <br />
+                            <input type="radio" name="strata" />
+                            Information Engineering
+                          </td>
+                          <td>
+                            <input type="radio" name="strata" />
+                            Informatics Engineering <br />
+                            <input type="radio" name="strata" />
+                            Information Engineering
+                          </td>
+                        </tr>
+                      </div>
+                    </table>
+                      <tr>
+                       <td>Size almamter :</td>
+                        <td><select>
+                         <option>S</option>
+                         <option>L</option>
+                         <option>M</option>
+                         <option>XL</option>
+                         <option>XXL</option>
+                         <option>XXXL</option>
+                        </select>
+                       </td>
+                   </tr>
+                   <tr>
+                    <td>Pembayaran :</td>
+                    <td><input type="radio" name="jk">Angsur
+                        <input type="radio" name="jk">Tunai
+                    </td>
+              </tr>
+
+            </table>
+        </form>
+    </fieldset>
+    <br> <br>
+    <fieldset>
+      <legend>Data Pribadi </legend>
+        <form>
+          <table>
+            <tr>
+              <td>6. Agama :</td>
+              <td><input type="text"></td>
+            </tr>
+            <tr>
+              <td>7. Tempat lahir :</td>
+              <td><input type="text"></td><br>
+            </tr>
+            <tr>
+              <td>8. Tanggal lahir :</td>
+              <td><input type="date"></td><br>
+            </tr>
+            <tr>
+             <td>9. Alamat rumah :</td>
+              <td><textarea></textarea></td>
+           </tr>
+           <tr>
+            <td>10. Nomor telepon :</td>
+             <td><input type="text"></td>
+          </tr>
+          <tr>
+            <td>11. Kewarga negaraan :</td>
+            <td><input type="radio" name="jk">Warga Negara Asing (WNA)<br>
+              <input type="radio" name="jk">Warga Negara Indonesia (WNI)
+            </td>
+          </tr>
+          <tr>
+            <td>12. Golongan darah  :</td>
+            <td><select>
+              <option>A</option>
+              <option>B</option>
+              <option>AB</option>
+              <option>O</option>
+            </select></td>
+          </tr>
+        </table>
+        </form>
+    </fieldset>
+    <br><br>
+    <fieldset>
+      <legend>Riwayat Pendidikan</legend>
+      <form>
+        <table>
+          <tr>
+            <td>13. Sekolah Dasar (SD) :</td>
+             <td><input type="text"></td>
+          </tr>
+          <tr>
+            <td>14. Sekolah Menengah Pertama (SMP) :</td>
+             <td><input type="text"></td>
+          </tr>
+          <tr>
+            <td>15. Sekolah Menengah Atas (SMA) :</td>
+             <td><input type="text"></td>
+          </tr>
+        </table>
+      </form>
+    </fieldset>
+    <br><br>
+  <div style="text-align: right;">
+        <tbody>
+          <br>
+        <tr>
+            <p>Ttd,</p>
+            <td>Cirebon, <input type="date" name="tgl-ttd"></td>
+        </tr>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <tr>
+            <td><input type="text" name="" placeholder="Nama Jelas"></td>
+        </tr>
+    </tbody>
+    <br> <br>
+    <button>Kirim</button>
+</div>
+    
+</form>
+</body>
+</html>
