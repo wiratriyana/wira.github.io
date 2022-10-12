@@ -1,0 +1,257 @@
+
+  
+  @font-face {
+    font-family: "Times New Roman";
+  }
+  @font-face {
+    font-family: "Author-DF";
+    src: url(Author-DF.ttf);
+  }
+
+
+  
+  body {
+    background-color: #749F82;
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  
+  .navbar {
+    position: absolute;
+    background-color: #A8E890;
+    width: 100%;
+    height: 4rem;
+  }
+  
+  .navbar1 {
+    font-size: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 0px;
+  }
+  
+  .navbar2 {
+    font-family: "Times New Roman";
+    font-size: 16px;
+    margin: 22px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 30rem;
+    list-style: none;
+  }
+  
+  .logo {
+    font-family: 'Bernard MT Condensed';
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -2px;
+    padding: top 10px;
+    font-size: 30px;
+    list-style-type: none;
+    color: #425F57;
+  }
+
+  
+  li a {
+    text-decoration: none;
+    color: #425F57;
+  }
+  
+  .isi__1,
+  .isi__2,
+  .isi__3,
+  .isi__4 {
+    background-color: #CFFF8D;
+    border: solid 1px #425F57;
+    padding-top: 4rem;
+    display: none;
+    font-family: Arial;
+    border-radius: 5px;
+    box-shadow: 1px 1px 6px hsl(60, 100%, 62%);
+  }
+  
+  .active {
+    font-weight: bolder;
+  }
+
+  .fieldset {
+    width: 60%;
+    background-color: #A8E890;
+    border: 1px solid #749F82;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wrapper-1 h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #367E18;
+    width: 100%;
+    line-height: 50px;
+}
+
+.wrapper-1 p {
+    
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.wrapper-3 .icon {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+.wrapper-3 .tombol {
+  display: inline-block;
+  width: 90px;
+  height: 90px;
+  background: #f1f1f1;
+  margin: 10px;
+  border-radius: 30%;
+  box-sizing: 0 5px 15px -5px #00000070;
+  overflow: hidden;
+  position: relative;
+  color: #749F82;
+}
+
+.wrapper-3 .tombol i {
+ transition: 0.2s linear;
+ font-size: 26px;
+ line-height: 90px;
+}
+
+.wrapper-3 .tombol :hover{
+  transform: scale(1.3);
+  color: #425F57;
+}
+
+.wrapper-3 .tombol::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  left: -110%;
+  top: 90%;
+  transform: rotate(45deg);
+  background: #A8E890;
+}
+
+.wrapper-3 .tombol:hover::before {
+  left: -10%;
+  top: -10%;
+  animation: aaa 0.7s 1;
+}
+
+.wrapper-2 h2 {
+  font-family: 'comic sans ms';
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #367E18;
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
+}
+
+.wrapper-2 p {
+    
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color: black;
+  text-align: center;
+}
+
+button  {
+  outline: none;
+  border-radius: 20px;
+  padding: 14px;
+  width: 300px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 8px 10px #749F82;
+  margin: 10px 10px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@keyframes aaa{
+  0%{
+      left: -110%;
+  top: -90%;
+  }
+  50%{
+      left: 10%;
+  top: -30%;
+  }
+  100%{
+      left: -10%;
+  top: -10%;
+  }
+}
+
+.wrapper-3 h2{
+  font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #367E18;
+    width: 100%;
+    line-height: 50px;
+}
+
+.wrapper-0 img {
+  width: 150px;
+  border-radius: 15px;
+  box-shadow: 0 3px 5px #519341;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.wrapper-0 h2{
+  font-family: 'comic sans ms';
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #367E18;
+  width: 100%;
+  line-height: 50px;
+  text-align: center;
+}
+
+
+.wrapper-0 .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'comic sans ms';
+  color: #367E18;
+  text-align: center;
+}
+
+.wrapper-0 p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'comic sans ms';
+  color: #367E18;
+  text-align: center;
+}
+
+@media  screen and (max-width: 991.98px) { 
+  
+  body {
+    width: 90%;
+  }
+  }

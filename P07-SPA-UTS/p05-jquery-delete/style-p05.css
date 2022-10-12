@@ -1,0 +1,40 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    background-color: #829460;
+}
+h1{
+    background-color: #D0B8A8;
+    text-align: center;
+    margin-bottom: 15px;
+}
+table{
+    border-collapse: collapse;
+    position: relative;
+    margin: auto;
+    width: 50%;
+    border-color: #674747;
+    margin-top: 50px;
+}
+table th,
+table td {
+    border: 1px solid ##674747;
+    padding: 7px 17px;
+}
+
+table tbody tr:nth-child(odd) td{
+    background-color: #f2f2f2;
+}
+table tbody tr:hover td {
+    background-color: #D0B8A8;
+    border-color: rgb(252, 255, 61);
+    transition: all .2s;
+}
+
+.data tengah {
+    background-color: rgb(183, 0, 0);
+}
+
+.kepala-tabel {
+    background-color: #7D6E83;
+}
