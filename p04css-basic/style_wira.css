@@ -1,0 +1,39 @@
+h2 {
+    text-align: center;
+}
+.fieldset {
+    width: 80%;
+    background-color: #F5EFE6;
+    border: 1px solid #DD5353;
+    box-shadow: 0 8px 10px #DD5353;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: #FFD372;
+}
+
+.custom img {
+    border-radius: 15px;
+    box-shadow: 0 8px 10px #DD5353;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-top: 5px;
+}
+a.tbl-biru {
+    background: #DD5353;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 40px;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.tbl-biru:hover{
+    background: #F5EFE6;
+    text-decoration: none;
+}
+
